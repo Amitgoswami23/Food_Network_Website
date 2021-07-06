@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.flexible-container{
+    display: flex;
+}
+
+.left-bannar{
+    width: 40%;
+    float:left;
+    margin-left: 5%;
+    margin-top:5%;
+}
+
+h1{
+    font-size:50px;
+    color: #575757;
+}
+
+p{
+    color:#ABA7A6 
+}
+
+h1 span{
+    color:#fb904a;
+}
+
+.right-bannar img{
+    width:100%;
+}
+
+.flex-1{
+    flex:1;
+}
+
+.btn{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 20px 40px;
+    border: none;
+    border-radius: 50px;
+    color:white;
+    font-weight: 800;
+    margin: 20px 0;
+    box-shadow: 5px 5px 40px #fd643a;
+}
+
+.About-area{
+    margin-top: 150px;
+    padding-top: 50px;
+    background: url("./images/shapes/Frame\ 56.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.About-area .left-area img{
+    margin-left: 2rem;
+    width:60%;
+    height: 600px;
+}
+
+.About-area .right-area{
+    padding-top: 50px;
+}
+
+.About-area .right-area h1{
+    color: #707070;
+}
+
+.About-area .right-area p{
+    color:#18191e;
+    padding-bottom: 35px;
+    margin-right: 155px;
+}
+
+.recipes-area h1{
+    text-align: center;
+    color: #676767;
+}
+
+.recipes-area h5{
+    text-align:center;
+    margin: 0 12rem;
+    color: #252525;
+    font-weight: 400;
+}
+
+.card-wrapper{
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    justify-content: space-around;
+}
+
+.card{
+    box-shadow: 0 0 5px 0.7rem #ECF0F1;
+    margin-bottom: 4rem;
+    border-radius: 2rem;
+    padding: 30px;
+}
+
+#card__image{
+    width: 100%;
+    display: block;
+}
+
+.card .card-content h2{
+    font-weight: 900;
+}
+
+.card .card-content p{
+    color: #18191e;
+    font-weight: 400;
+}
