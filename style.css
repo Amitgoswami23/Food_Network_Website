@@ -18,9 +18,13 @@ section{
     margin-top:5%;
 }
 
-h1{
+.left-bannar h1{
     font-size:50px;
     color: #575757;
+}
+
+.left-bannar h2{
+    font-size: 3rem;
 }
 
 p{
@@ -190,6 +194,55 @@ h1 span{
 /*review section end*/
 
 
+/*services*/
+.our-services{
+    margin-top: 20%;
+    background: #D5D9DA ;
+}
+
+.our-services .container{
+    display: flex;
+}
+
+.our-services h1{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.service-card{
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
+
+.service-card p{
+    color: #0b0e17;
+    font-weight: 400;
+    padding-left: 2rem;
+}
+
+.service-card .icon{
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-primary{
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(122, 228, 255), rgb(71, 151, 255));
+    padding: 20px 40px;
+    border: none;
+    border-radius: 50px;
+    color:white;
+    font-weight: 800;
+    margin: 20px 0;
+    box-shadow: 5px 5px 40px #3aaffd;
+}
+
+/*end services page*/
+
+
 /*footer start*/
 
 .footer{
@@ -201,7 +254,8 @@ h1 span{
 
 .footer h1{
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 2rem;
+    color: white;
 }
 
 footer p{
